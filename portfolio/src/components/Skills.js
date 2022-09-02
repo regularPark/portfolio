@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Skills.css";
+
 const usableLanguage = ["JavaScript", "CSS", "HTML", "Kotlin", "C++", "Python"];
 
 const setUsableLanguage = () => {
@@ -11,7 +13,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <h3>Skills</h3>
-      <ul>{setUsableLanguage()}</ul>
+      <ul className="skills-list">{setUsableLanguage()}</ul>
     </div>
   );
 };

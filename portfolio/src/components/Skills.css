@@ -1,0 +1,11 @@
+.skills {
+  background-color: #a3b18a;
+  padding: 1em;
+  margin: 2em;
+  border-radius: 12px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+}
+
+.skills-list {
+  font-size: 1em;
+}

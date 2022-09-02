@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Intro.css";
+
 const Intro = () => {
   let Introduction = <h2>박정규</h2>;
 
